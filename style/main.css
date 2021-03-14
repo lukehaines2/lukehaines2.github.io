@@ -16,12 +16,13 @@ body {
   min-height: 100vh;
   background-image: url(../public/maimouspito-bg.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #000;
 }
 
 h1 {
