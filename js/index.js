@@ -1,12 +1,13 @@
 // Get the new year 
 const getNewYear = () => {
-  const currentYear = new Date().getFullYear();
-  return new Date(`January 01 ${currentYear + 1} 00:00:00`);
+  // const currentYear = new Date().getFullYear();
+  // return new Date(`January 01 ${currentYear + 1} 00:00:00`);
+  return new Date('03/28/2021');
 };
 
 // update the year element
-const year = document.querySelector('.year');
-year.innerHTML = getNewYear().getFullYear();
+// const year = document.querySelector('.year');
+// year.innerHTML = getNewYear().getFullYear();
 
 // select elements
 const app = document.querySelector('.countdown-timer');
@@ -43,7 +44,7 @@ const render = (time) => {
 
 
 const showMessage = () => {
-  message.innerHTML = `Happy New Year ${newYear}!`;
+  message.innerHTML = `Happy Tree House day babimooo!!!`;
   app.innerHTML = '';
   heading.style.display = 'none';
 };

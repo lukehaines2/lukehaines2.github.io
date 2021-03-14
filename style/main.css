@@ -14,7 +14,7 @@ body {
 .container {
   height: 100%;
   min-height: 100vh;
-  background-image: url(../public/firework-bg.jpg);
+  background-image: url(../public/maimouspito-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -27,6 +27,8 @@ body {
 h1 {
   font-size: 60px;
   margin: -80px 0 40px;
+  text-align: center;
+  background: #d3d3d342;
 }
 
 .count-down {
@@ -37,6 +39,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #d3d3d342;
 }
 
 
