@@ -50,6 +50,11 @@ body {
     font-size: 1.8rem !important;
   }
 
+  h1,
+  .count-down {
+    background: #00000059 !important;
+  }
+
   .timer h2 {
     font-size: 2rem !important;
     margin: 0 0 10px !important;
