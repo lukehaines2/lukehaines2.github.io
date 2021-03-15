@@ -36,6 +36,10 @@ body {
 }
 
 @media (max-width: 1280px) {
+  .container {
+    background-image: url(../public/maimouspito-mob.jpg);
+  }
+
   .title-container {
     width: 90% !important;
     padding: 1rem !important;
