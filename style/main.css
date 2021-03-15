@@ -9,6 +9,7 @@ body {
   font-size: 16px;
   color: #fff;
   line-height: 1.8;
+  overflow-y: hidden;
 }
 
 .container {
@@ -23,6 +24,27 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #000;
+}
+
+@media (max-width: 1280px) {
+  h1 {
+    width: 90%;
+    font-size: initial;
+  }
+
+  /* .countdown-timer,
+  .count-down {
+    width: 90%;
+  } */
+
+  .timer h2 {
+    font-size: 2rem !important;
+    margin: 0 0 10px !important;
+  }
+
+  small {
+    font-size: 1rem !important;
+  }
 }
 
 h1 {
@@ -45,7 +67,6 @@ h1 {
   background: #d3d3d342;
 }
 
-
 .timer {
   display: flex;
   flex-direction: column;
@@ -59,11 +80,9 @@ h1 {
   font-size: 4rem;
 }
 
-
 .message {
   font-size: 60px;
 }
-
 
 small {
   padding-top: 5px;
@@ -72,7 +91,7 @@ small {
   display: block;
 }
 
-.year {
+/* .year {
   font-size: 200px;
   opacity: 0.2;
   position: absolute;
@@ -81,3 +100,5 @@ small {
   transform: translate(-50%, 80%);
   margin: 0;
 }
+
+*/
