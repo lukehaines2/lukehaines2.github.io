@@ -2,7 +2,7 @@
 const getNewYear = () => {
   // const currentYear = new Date().getFullYear();
   // return new Date(`January 01 ${currentYear + 1} 00:00:00`);
-  return new Date('03/28/2021');
+  return new Date('03/27/2021');
 };
 
 // update the year element
