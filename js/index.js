@@ -2,7 +2,7 @@
 const getNewYear = () => {
   // const currentYear = new Date().getFullYear();
   // return new Date(`January 01 ${currentYear + 1} 00:00:00`);
-  return new Date('03/27/2021');
+  return new Date('12/12/2021');
 };
 
 // update the year element
@@ -12,7 +12,7 @@ const getNewYear = () => {
 // select elements
 const app = document.querySelector('.countdown-timer');
 const message = document.querySelector('.message');
-const heading = document.querySelector('h1');
+const heading = document.querySelector('h2');
 
 
 const format = (t) => {
@@ -44,7 +44,7 @@ const render = (time) => {
 
 
 const showMessage = () => {
-  message.innerHTML = `Happy Tree House day babimooo!!!`;
+  message.innerHTML = `Bhilli comes home!!! COMEEEEEEEEEE ONNNNNNNNNNNN!!!!!!!`;
   app.innerHTML = '';
   heading.style.display = 'none';
 };
